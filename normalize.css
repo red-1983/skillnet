@@ -1,0 +1,59 @@
+
+* {
+  margin:0;
+  padding:0;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+/*общие стили*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+li {
+  list-style-type:none;
+  }
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+  address {
+  font-size:inherit;
+  font-style:inherit;
+  }
+  .visiality-hidden {
+  visibility:hidden;
+  margin:0;
+  padding:0;
+  height: 0;
+  width: 0;
+  }
+  img, video {
+    max-width:100%;
+    height: auto;
+
+    }
+  ul {
+    padding: 0;
+    margin: 0;
+  }

@@ -1,0 +1,142 @@
+/*переменные root*/
+
+:root {
+  --font-Roboto_Slab:'Roboto Slab';
+  --font-Roboto:'Roboto';
+  --font-size: 18px;
+  --font-style: normal;
+  --font-weight_600: 600;
+  --font-weight_700: 700;
+  --font-weight_500: 500;
+  --line-height: 1.5em;
+  --text-transform: uppercase;
+  --line-height_21: 1.16em;
+  }
+
+ @media(max-width:1440px) {
+  :root {
+    --font-size: 16px;
+    --font-style: normal;
+    }
+
+
+
+  }
+  @media(max-width:1024px) {
+    :root {
+      --font-size: 14px;
+      --font-style: normal;
+    }
+    }
+
+
+  /*шрифты страницы 1920px*/
+  .page {
+    font-family: var(--font-Roboto);
+    font-style: var(--font-size);
+    font-weight: var(--font-style);
+    font-size: var(--font-size);
+    line-height: 1.5em;
+  }
+  /*шрифты заголовков*/
+  h2 {
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_700);
+    font-size: 1.66rem;
+    line-height: 1.33em;
+    text-transform: var(--text-transform);
+    margin-bottom: 2.7rem;
+  }
+  h3 {
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_600);
+    font-size: 1.33rem;
+    line-height: 1.33em;
+    margin-bottom: 1.11rem;
+  }
+  /*шрифты header*/
+  .header_font-a{
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_700);
+    line-height: 1.3em;
+
+  }
+  .header_font-nav {
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_600);
+    line-height: 1.8em;
+  }
+
+  /*шрифты титульник*/
+  .title_font-p {
+    font-size: 1.33rem;
+    line-height: 1.16em;
+    margin-bottom: 1.66rem;
+  }
+  .title_font-p_span{
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_700);
+    font-size: 2.22rem;
+    line-height: 1.5em;
+    text-transform: var(--text-transform);
+  }
+  .title_font-p_span2 {
+    color:#009FE3;
+  }
+  .main_font-button {
+    font-family: var(--font-Roboto);
+    line-height: var(--line-height_21);
+    font-size: 1rem;
+  }
+  /*шрифты раздел о нашей студии*/
+
+  /*шрифты раздел услуги*/
+  .services_font-list {
+     line-height: var(--line-height_21);
+  }
+  /*шрифты раздел этапы работ*/
+  .stages_font-li {
+    font-weight: var(--font-weight_700);
+    line-height: var(--line-height_21);
+  }
+  .stages_font-p {
+     line-height: var(--line-height_21);
+  }
+  .stages_font-p_span {
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_700);
+    font-size: 2.22rem;
+    line-height: 1.32em;
+  }
+  .stages-form_font-p {
+    font-size: 0.88rem;
+    line-height: 1.18em;
+  }
+  .stages-form_font-p_span{
+    font-family: var(--font-Roboto_Slab);
+    font-weight: var(--font-weight_700);
+    font-size: 2.22rem;
+    line-height: 1.32em;
+  }
+  .stages-form_font-input{
+    font-size: 0.77rem;
+    line-height: 1.14em;
+  }
+  .stages_form_font-button{
+    font-weight: var(--font-weight_600);
+    font-size: 0.77rem;
+    line-height: 1.14em;
+  }
+  .portfolio_font-button{
+    font-weight: var(--font-weight_600);
+    font-size:1rem;
+    line-height: 1.8em;
+
+  }
+  /*шрифты раздел footer*/
+  .footer_font {
+    font-weight: var(--font-weight_500);
+    font-size: 0.88rem;
+    line-height: 1.18em;
+  }
+
