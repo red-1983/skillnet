@@ -15,13 +15,12 @@
   <body class="page__body">
 
     <!--Шапка сайта-->
-    <header class="page-header header-nav--closed">
+    <header class="page-header ">
       <a id="logo" href="#" class="page-header__logo ">
-        <img class="header_logo"src="img/skillnet_logo.svg" width="136" height="50" alt="Логотип Skillnet">
-        <img class="footer_logo" src="img/icon/logo_white.svg" width="136" height="50" alt="Логотип компании">
+        <img src="img/skillnet_logo.svg" width="136" height="50" alt="Логотип Skillnet">
       </a>
         <!--Навигационная панель-->
-      <nav class="header-nav  header-nav--nojs header-nav--closed">
+      <nav class="header-nav header-nav--closed header-nav--nojs">
           <button class="header-nav__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
           </button>
@@ -33,6 +32,44 @@
             <li class="nav-list__item"><a href="#contact" title="Контакты, соцсети"> Контакты </a></li>
           </ul>
       </nav>
+            <ul class="page-header__sity header_font-nav" >
+              <li class="sity-list__item sity-list__item-active" title="Выберите город"> Город
+                <ul class="list-country ">
+                  <li class="list-country_item" >Республика Беларусь
+                    <ul>
+                      <li title="Разработка сайтов, веб дизайн в Бресте">Брест</li>
+                      <li title="Разработка сайтов, веб дизайн в Витебске">Витебск</li>
+                      <li title="Разработка сайтов, веб дизайн в Гомеле">Гомель</li>
+                      <li title="Разработка сайтов, веб дизайн в Гродно">Гродно</li>
+                      <li title="Разработка сайтов, веб дизайн в Минске">Минск</li>
+                      <li title="Разработка сайтов, веб дизайн в Могилеве">Могилев</li>
+                      <li title="Разработка сайтов, веб дизайн в Мозыре">Мозырь</li>
+                    </ul>
+                   </li>
+                  <li>Российская Федерация
+                    <ul>
+                      <li title="Разработка сайтов, веб дизайн в Москве">Москва</li>
+                      <li title="Разработка сайтов, веб дизайн в Санкт-Петербург">Санкт-Петербург</li>
+                      <li title="Разработка сайтов, веб дизайн в Казани">Казань</li>
+                      <li title="Разработка сайтов, веб дизайн в Новосибирске">Новосибирск</li>
+                      <li title="Разработка сайтов, веб дизайн в Екатеринбурге">Екатеринбург</li>
+                      <li title="Разработка сайтов, веб дизайн в Краснодаре">Краснодар</li>
+                    </ul>
+                  </li>
+                  <li>Республика Казахстан
+                    <ul>
+                      <li title="Разработка сайтов, веб дизайн в Алма-Ате">Алма-Ата</li>
+                      <li title="Разработка сайтов, веб дизайн в Астане">Астана</li>
+                      <li title="Разработка сайтов, веб дизайн в Шымкенте">Шымкент</li>
+                      <li title="Разработка сайтов, веб дизайн в Актобе">Актобе</li>
+                      <li title="Разработка сайтов, веб дизайн в Караганде">Караганда</li>
+                      <li title="Разработка сайтов, веб дизайн в Таразе">Тараз</li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
 
             <ul class="page-header__contact contact_list" >
               <li class="contact-list__item">
@@ -49,10 +86,7 @@
           <h1 class="visually-hidden">Skillnet - веб дизайн, разработка и продвижение сайтов</h1>
           <p class="title_font-p"> <span class="title_font-p_span">Разработка и продвижение сайтов в</span> <span id="town" class="title_font-p_span title_font-p_span2">Мозыре</span></p>
           <p class="title_font-p">Разработаем сайт под ваши пожелания и сделаем для него продвижение</p>
-          <button class="main-button main_font-button " type="button"> Заказать сайт
-            <span class="button_blue"></span>
-            <span class="button_white"></span>
-          </button>
+          <button class="main-button main_font-button main-button_hover" type="button"> Заказать сайт </button>
         </div>
         <div class="main-title__image">
 
@@ -85,7 +119,7 @@
             </picture>
             <h3>Веб-дизайн сайтов</h3>
             <p>Процесс создание сайтов от проектирования структуры сайта до визуализации графического оформления</p>
-            <a class="main-button--services"> <span>Подробнее</span>  </a>
+            <a class="main-button main-button--services">Подробнее</a>
           </li>
           <li class="services-list__item">
             <picture>
@@ -94,7 +128,7 @@
             </picture>
             <h3>Разработка сайтов</h3>
             <p>Создание сайта, этапами процесса которого являются верстка и программирование</p>
-            <a class="main-button--services"> <span>Подробнее</span> </a>
+            <a class="main-button main-button--services">Подробнее</a>
           </li>
           <li class="services-list__item">
             <picture>
@@ -103,7 +137,7 @@
             </picture>
             <h3>Продвижение сайтов</h3>
             <p>SEO поисковая оптимизация Яндекс и Google, поднятие сайта на топовую позицию в поиске</p>
-            <a class="main-button--services"><span>Подробнее</span></a>
+            <a class="main-button main-button--services">Подробнее</a>
           </li>
           <li class="services-list__item">
             <picture>
@@ -112,7 +146,7 @@
             </picture>
             <h3>Обслуживание сайтов</h3>
             <p>Ряд задач для стабильной работы сайта: работа с контентом, редизайн сайта, поисковая оптимизация и прочие услуги</p>
-            <a class="main-button--services"> <span>Подробнее</span> </a>
+            <a class="main-button main-button--services">Подробнее</a>
           </li>
         </ul>
       </section>
@@ -189,15 +223,12 @@
               </li>
             </ul>
         </figure>
-        <button class="main-button main-button__figure portfolio_font-button ">Смотреть больше
-          <span class="button_blue"></span>
-          <span class="button_white"></span>
-        </button>
+        <button class="main-button main-button__figure portfolio_font-button main-button_hover">Смотреть больше</button>
       </section>
 
     </main>
     <footer class="page-footer footer_font">
-      <div class="page-footer__container">
+      <div class="page-footer__ccontainer">
         <a href="#logo" class="page-footer__logo">
           <img src="img/icon/logo_white.svg" width="136" height="50" alt="Логотип компании">
         </a>
@@ -208,8 +239,7 @@
         </ul>
         <ul id="contact" class="page-contact page-contact__footer">
           <li> <a class="page-contact__tel" href="tel:+375336582525" aria-label="MTS">+375 (33) 658 25 25</a></li>
-          <li> <a class="page-contact__mailto" href="mailto:skillnet.by@gmail.com">skillnet.by@gmail.com</a></li>
-
+          <li> <a class="page-contact__mailto" href="mailto:benzaviktoria@tut.by">benzaviktoria@tut.by</a></li>
         </ul>
       </div>
       <p class="page-license">&#169 2023 Skillnet</p>
@@ -229,27 +259,27 @@
         <p >Спасибо, что доверились нам!</p>
         <fieldset class="popup__info ">
           <p>
-        <input  type='text' class="title_font-p" name='popup_user' placeholder='Имя' autofocus pattern="/^[A-Za-zA-Яа-яЁё\s]{3,16}/" maxlength="16">
-        <span class=' errors stages-form_font-p'></span>
+        <input  type='text' name='popup_user' placeholder='Имя' autofocus>
+        <span></span>
           </p>
           <p>
-        <input  type='email' class="title_font-p" name='popup_email' placeholder='Email*' maxlength="16" pattern='/^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu' required>
-        <span class=' errors stages-form_font-p'></span>
+        <input  type='email' name='email' placeholder='Email*' required>
+        <span></span>
         </p>
         <p>
-        <input  type='tel' class="title_font-p" data-tel-input name='popup_tel' placeholder='Номер телефона*' required>
-        <span class=' errors stages-form_font-p'></span>
+        <input  type='tel' data-tel-input name='tel' placeholder='Номер телефона*' required>
+        <span></span>
         </p>
         <p>
-        <input c type='text' class="title_font-p" name='popup_conpany' placeholder='Компания' pattern="/^[A-Za-zA-Яа-яЁё\s]{3,16}/" maxlength="16">
-        <span class=' errors stages-form_font-p'></span>
+        <input c type='text' name='conpany' placeholder='Компания' >
+        <span></span>
        </p>
       </fieldset>
         <fieldset class="popup__services">
         <legend >Выберите услугу</legend>
-        <ul class="popup__services__group ">
+        <ul class="popup__services__group">
           <li>
-            <input id="checkbox__web-desing"  type='checkbox' name='checkbox__web-desing--input' >
+            <input id="checkbox__web-desing" type='checkbox' name='checkbox__web-desing--input'>
             <label for="checkbox__web-desing"> Вебдизайн сайта</label>
           </li>
           <li>
@@ -266,10 +296,10 @@
            </li>
         </ul>
       </fieldset>
-      <input id="checkbox__rights" type='checkbox' name='checkbox__rights--input'  required>
+      <input id="checkbox__rights" type='checkbox' name='checkbox__rights--input'>
       <label for="checkbox__rights" class="popup__checkbox--rights"> Я согласен на обработку личных данных в соответствии с политикой конфиденциальности</label>
      <label class="label__textarea" for="text" >Комментарий</label>
-      <textarea id='text' rows="4" name="textarea" pattern="/^[A-Za-zA-Яа-яЁё\s]{3,16}/" maxlength="200"></textarea>
+      <textarea id='text' rows="4" name="textarea" ></textarea>
         <div class="popup__button">
         <label class="popup__file portfolio_font-button" ><input class=" popup__file--input" type="file" name="file"> <span class="popup__file--span" >Прикрепить файл</span></label>
                 <button class="popup_button--sumbit portfolio_font-button" type="submit" >Отправить</button>
