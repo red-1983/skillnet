@@ -23,12 +23,7 @@
 
 
   }
-  @media(max-width:1024px) {
-    :root {
-      --font-size: 14px;
-      --font-style: normal;
-    }
-    }
+
 
 
   /*шрифты страницы 1920px*/
@@ -91,18 +86,20 @@
     line-height: var(--line-height_21);
     font-size: 1rem;
   }
-  @media (min-width: 426px) and (max-width: 767px) {
+  @media (max-width: 767px) {
     .title_font-p {
       margin-bottom: 1rem;
       font-size: 1.2rem;
     }
     .title_font-p_span{
       font-size: 1.8rem;
-      line-height: 1.2em;
+      line-height: 1.4em;
 
     }
 
   }
+
+
   /*шрифты раздел о нашей студии*/
 
   /*шрифты раздел услуги*/
@@ -161,5 +158,5 @@
   font-size: 0.7rem;
   font-weight: var(--font-weight);
   color:red;
-  
+
  }
